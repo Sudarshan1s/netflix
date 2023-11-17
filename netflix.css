@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   
+    background: black;
+    color: white;
+}
+.net1{
+    background-image: url(../images/header-image.png);
+    background-size: cover;
+    background-position: center;
+    box-shadow:2px 2px 30px #aa9d9f ;
+    height: 100vh;
+    width: 100%;
+    padding: 10px ;
+    position: relative;
+    color: rgb(255, 255, 255);
+}
+nav{
+    padding: 10px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.net2{
+    box-shadow:2px 2px 30px #aa9d9f ;
+    width: 150px;
+    
+}
+form button{
+    background-color: red;
+    color: white;
+    border:0;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 15px;
+    
+}
+.net3{
+  
+    display:inline-flex;
+    align-items: center;
+    border: 2px solid;
+    border-color: white;
+    padding: 10px;
+    background-color: transparent;
+    color:white;
+}
+.net4{
+
+position: absolute;
+ top: 50%;
+ left: 40%;
+ text-align: center;
+ 
+}
+.net4 h1{
+   
+font-size: 50px;
+line-height:60px ;
+font-weight: 500;
+max-width: 600px;
+}
+.net4 h3{
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.email{
+    border: 2px;
+    display: flex;
+ background-color: white;
+   align-items: center;
+   border-radius: 5px;
+   margin-top: 20px;
+   
+
+}
+.email input{
+    display: flex;
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+}
+.email button{
+    align-items: flex-end;
+}
+
+.net5{
+    box-shadow:2px 2px 30px #aa9d9f ;
+    padding: 50px;
+    font-size: 25px;
+    border: 5px;
+    border-color: rgb(57, 56, 56);
+}
+.section1{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 50px;
+
+}
+.text{
+    flex:50%;
+    margin-bottom: 25px;
+}
+.image{
+    flex: 50%;
+    margin-bottom: 25px;
+}
+.image img{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+.net5 h2{
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+
+
+
+
